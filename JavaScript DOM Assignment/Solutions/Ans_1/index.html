@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Picture Upload</title>
+    <style>
+        #imagePreview {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            display: none;
+            border: 2px solid #ddd;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload Your Profile Picture</h1>
+    <input type="file" id="fileInput" accept="image/*">
+    <img id="imagePreview" alt="Image Preview">
+
+    <script src="script.js"></script>
+</body>
+</html>
